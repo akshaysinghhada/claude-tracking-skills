@@ -1,0 +1,31 @@
+order_id,amount,payment_method,status
+#1001,1299,COD,confirmed
+#1002,1599,COD,confirmed
+#1003,499,Cashfree - UPI,paid
+#1004,499,Razorpay - UPI,paid
+#1005,2199,COD,confirmed
+#1006,2199,COD,confirmed
+#1007,499,COD,cancelled
+#1008,1599,Razorpay - Card,paid
+#1009,499,COD,confirmed
+#1010,499,Cashfree - UPI,paid
+#1011,1599,COD,confirmed
+#1012,349,Cashfree - UPI,paid
+#1013,499,COD,confirmed
+#1014,999,Cashfree - UPI,paid
+#1015,499,Cashfree - UPI,paid
+#1016,2199,Razorpay - Card,paid
+#1017,499,COD,confirmed
+#1018,499,Cashfree - UPI,paid
+#1019,349,COD,confirmed
+#1020,1299,Razorpay - Card,paid
+#1021,799,Cashfree - UPI,paid
+#1022,499,Cashfree - UPI,cancelled
+#1023,1299,Cashfree - UPI,paid
+#1024,349,COD,confirmed
+#1025,499,Cashfree - UPI,paid
+#1026,2199,COD,confirmed
+#1027,1299,COD,confirmed
+#1028,2199,COD,confirmed
+#1029,2199,COD,confirmed
+#1030,2199,COD,confirmed

@@ -1,0 +1,11 @@
+Conversion actions
+"1 October 2026 - 31 October 2026"
+Conversion action,Action optimization,Source,Category,Count,Click-through conversion window,Attribution model,Value,Enhanced conversions,Status,Conversions
+Purchase - Google Ads tag,Primary action,Website,Purchase,Every,30 days,Data-driven,Use different values for each conversion,Recording,Recording conversions,412
+demo-store (web) purchase,Primary action,Google Analytics 4 (web),Purchase,Every,30 days,Data-driven,Use different values for each conversion,,Recording conversions,398
+demo-store (web) add_to_cart,Primary action,Google Analytics 4 (web),Add to cart,Every,30 days,Data-driven,Use the same value for each conversion,,Recording conversions,2950
+Begin checkout,Secondary action,Website,Begin checkout,Every,30 days,Data-driven,Don't use a value,Not set up,Recording conversions,1204
+WhatsApp click,Primary action,Website,Other,One,7 days,Last click,Don't use a value,Not set up,Recording conversions,640
+Phone call from ads,Secondary action,Calls from ads,Phone call lead,One,30 days,Position-based,Use the same value for each conversion,,No recent conversions,3
+Old purchase tag,Primary action,Website,Purchase,One,3 days,Linear,Don't use a value,Not set up,Inactive,0
+Total: Account,,,,,,,,,,7607

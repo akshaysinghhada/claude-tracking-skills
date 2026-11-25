@@ -1,0 +1,14 @@
+url,notes
+https://demo-store.in/collections/kurtas?utm_source=facebook&utm_medium=paid_social&utm_campaign=diwali-sale-2026&utm_content=video-01,clean meta link
+https://demo-store.in/collections/kurtas?utm_source=Facebook&utm_medium=Paid Social&utm_campaign=Diwali Sale 2026,uppercase and spaces
+https://demo-store.in/?utm_source=instagram&utm_medium=ads&utm_campaign=reel-launch,medium ads lands unassigned
+https://demo-store.in/?utm_source=newsletter&utm_medium=newsletter&utm_campaign=nov-week-3,newsletter medium
+https://demo-store.in/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign={{campaign.name}}&utm_content={{ad.name}}&utm_term={{adset.name}},meta dynamic
+https://demo-store.in/?utm_medium=cpc&utm_campaign=brand,missing source
+https://demo-store.in/?utm_source=meta&utm_medium=cpc&utm_campaign=prospecting,meta source paid other
+https://demo-store.in/?utm_source=facebook&utm_medium=paid_social&utm_campaign=festive-shop-now,shop in campaign
+https://demo-b2b.com/demo?gclid=TeSt_fake_gclid_123,google ads auto-tagged
+https://demo-b2b.com/webinar?utm_source=linkedin&utm_medium=social&utm_campaign=q4-webinar,organic linkedin
+https://demo-store.in/?utm_source=whatsapp&utm_medium=whatsapp&utm_campaign=restock-alert,whatsapp medium
+https://demo-store.in/?UTM_SOURCE=google&utm_medium=cpc&utm_campaign=pmax,uppercase key
+https://demo-store.in/page#utm_source=email&utm_medium=email,after hash

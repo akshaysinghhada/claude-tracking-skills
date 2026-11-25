@@ -1,0 +1,7 @@
+Conversion action,Goal type,Conversion source,Goal category,Count,Click-through window,Attribution,Enhanced conversions
+Demo request form,Primary,Website,Submit lead form,Every,30 days,Data-driven,Off
+demo request form (GA4),Primary,Google Analytics 4 (web),Submit lead form,One,30 days,Data-driven,
+Lead form - Submit,Primary,Lead form,Submit lead form,One,30 days,Data-driven,
+SQL - CRM import,Secondary,Import from clicks,Qualified lead,One,30 days,Data-driven,
+Closed won - CRM import,Secondary,Import from clicks,Converted lead,One,90 days,Data-driven,
+Pricing page view,Primary,Website,Page view,One,30 days,Data-driven,

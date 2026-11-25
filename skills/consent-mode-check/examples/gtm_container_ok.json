@@ -1,0 +1,131 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2026-11-20 10:00:00",
+  "containerVersion": {
+    "accountId": "6000000000",
+    "containerId": "100000002",
+    "containerVersionId": "12",
+    "container": {
+      "accountId": "6000000000",
+      "containerId": "100000002",
+      "name": "brightnest-realty-demo.in",
+      "publicId": "GTM-DEMO456",
+      "usageContext": [
+        "WEB"
+      ]
+    },
+    "tag": [
+      {
+        "tagId": "1",
+        "name": "DemoCMP - Consent Mode",
+        "type": "cvt_100000002_20",
+        "parameter": [],
+        "firingTriggerId": [
+          "2147479572"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "consentSettings": {
+          "consentStatus": "notNeeded"
+        }
+      },
+      {
+        "tagId": "2",
+        "name": "Google Tag - G-DEMO0002",
+        "type": "googtag",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "tagId",
+            "value": "G-DEMO0002"
+          }
+        ],
+        "firingTriggerId": [
+          "2147479573"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "consentSettings": {
+          "consentStatus": "notSet"
+        }
+      },
+      {
+        "tagId": "3",
+        "name": "GA4 - generate_lead",
+        "type": "gaawe",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "eventName",
+            "value": "generate_lead"
+          },
+          {
+            "type": "template",
+            "key": "measurementIdOverride",
+            "value": "G-DEMO0002"
+          }
+        ],
+        "firingTriggerId": [
+          "12"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "consentSettings": {
+          "consentStatus": "notSet"
+        }
+      },
+      {
+        "tagId": "4",
+        "name": "Meta Pixel - Base",
+        "type": "html",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "html",
+            "value": "<script>\n!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '000000000000000');\nfbq('track', 'PageView');\n</script>"
+          }
+        ],
+        "firingTriggerId": [
+          "2147479553"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "consentSettings": {
+          "consentStatus": "needed",
+          "consentType": {
+            "type": "list",
+            "list": [
+              {
+                "type": "template",
+                "value": "ad_storage"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "tagId": "5",
+        "name": "Conversion Linker",
+        "type": "gclidw",
+        "parameter": [],
+        "firingTriggerId": [
+          "2147479553"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "consentSettings": {
+          "consentStatus": "notSet"
+        }
+      }
+    ],
+    "trigger": [
+      {
+        "triggerId": "12",
+        "name": "CE - form_submit_success",
+        "type": "customEvent"
+      }
+    ],
+    "customTemplate": [
+      {
+        "templateId": "20",
+        "name": "DemoCMP - Consent Mode",
+        "templateData": "___INFO___\n\n{\"type\": \"TAG\", \"id\": \"cvt_temp_public_id\", \"version\": 1, \"displayName\": \"DemoCMP - Consent Mode\", \"categories\": [\"TAG_MANAGEMENT\"]}\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\nconst setDefaultConsentState = require('setDefaultConsentState');\nconst updateConsentState = require('updateConsentState');\nsetDefaultConsentState({ad_storage: 'denied', analytics_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500});\ndata.gtmOnSuccess();\n"
+      }
+    ]
+  }
+}

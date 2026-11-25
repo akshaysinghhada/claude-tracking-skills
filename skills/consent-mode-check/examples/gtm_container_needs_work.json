@@ -1,0 +1,199 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2026-11-20 10:00:00",
+  "containerVersion": {
+    "path": "accounts/6000000000/containers/100000001/versions/0",
+    "accountId": "6000000000",
+    "containerId": "100000001",
+    "containerVersionId": "0",
+    "container": {
+      "accountId": "6000000000",
+      "containerId": "100000001",
+      "name": "kesarleaf-demo.in",
+      "publicId": "GTM-DEMO123",
+      "usageContext": [
+        "WEB"
+      ]
+    },
+    "tag": [
+      {
+        "accountId": "6000000000",
+        "containerId": "100000001",
+        "tagId": "1",
+        "name": "Consent Default - Custom HTML",
+        "type": "html",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "html",
+            "value": "<script>\nwindow.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}\ngtag('consent','default',{'ad_storage':'denied','analytics_storage':'denied'});\n</script>"
+          },
+          {
+            "type": "boolean",
+            "key": "supportDocumentWrite",
+            "value": "false"
+          }
+        ],
+        "firingTriggerId": [
+          "2147479553"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "consentSettings": {
+          "consentStatus": "notSet"
+        }
+      },
+      {
+        "accountId": "6000000000",
+        "containerId": "100000001",
+        "tagId": "2",
+        "name": "Google Tag - G-DEMO0001",
+        "type": "googtag",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "tagId",
+            "value": "G-DEMO0001"
+          }
+        ],
+        "firingTriggerId": [
+          "2147479573"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "consentSettings": {
+          "consentStatus": "notSet"
+        }
+      },
+      {
+        "accountId": "6000000000",
+        "containerId": "100000001",
+        "tagId": "3",
+        "name": "Meta Pixel - Base",
+        "type": "html",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "html",
+            "value": "<script>\n!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '000000000000000');\nfbq('track', 'PageView');\n</script>"
+          }
+        ],
+        "firingTriggerId": [
+          "2147479553"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "consentSettings": {
+          "consentStatus": "notSet"
+        }
+      },
+      {
+        "accountId": "6000000000",
+        "containerId": "100000001",
+        "tagId": "4",
+        "name": "Google Ads - Purchase",
+        "type": "awct",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "conversionId",
+            "value": "000000000"
+          },
+          {
+            "type": "template",
+            "key": "conversionLabel",
+            "value": "AbCdEfGh"
+          },
+          {
+            "type": "template",
+            "key": "conversionValue",
+            "value": "{{DLV - value}}"
+          }
+        ],
+        "firingTriggerId": [
+          "11"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "consentSettings": {
+          "consentStatus": "notSet"
+        }
+      },
+      {
+        "accountId": "6000000000",
+        "containerId": "100000001",
+        "tagId": "5",
+        "name": "LinkedIn Insight",
+        "type": "html",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "html",
+            "value": "<script>_linkedin_partner_id = \"0000000\";</script><script src=\"https://snap.licdn.com/li.lms-analytics/insight.min.js\"></script>"
+          }
+        ],
+        "firingTriggerId": [
+          "2147479553"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "consentSettings": {
+          "consentStatus": "notNeeded"
+        }
+      },
+      {
+        "accountId": "6000000000",
+        "containerId": "100000001",
+        "tagId": "6",
+        "name": "Meta Pixel - Purchase (early test)",
+        "type": "html",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "html",
+            "value": "<script>fbq('track','Purchase',{value:{{DLV - value}},currency:'INR'},{eventID:'{{DLV - order_id}}'});</script>"
+          }
+        ],
+        "firingTriggerId": [
+          "2147479572"
+        ],
+        "tagFiringOption": "ONCE_PER_EVENT"
+      },
+      {
+        "accountId": "6000000000",
+        "containerId": "100000001",
+        "tagId": "7",
+        "name": "Old UA Tag",
+        "type": "ua",
+        "parameter": [],
+        "firingTriggerId": [
+          "2147479553"
+        ],
+        "paused": true
+      }
+    ],
+    "trigger": [
+      {
+        "accountId": "6000000000",
+        "containerId": "100000001",
+        "triggerId": "11",
+        "name": "CE - purchase",
+        "type": "customEvent",
+        "customEventFilter": [
+          {
+            "type": "equals",
+            "parameter": [
+              {
+                "type": "template",
+                "key": "arg0",
+                "value": "{{_event}}"
+              },
+              {
+                "type": "template",
+                "key": "arg1",
+                "value": "purchase"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "variable": [],
+    "customTemplate": []
+  }
+}

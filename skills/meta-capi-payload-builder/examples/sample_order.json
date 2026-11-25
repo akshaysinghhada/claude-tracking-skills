@@ -1,0 +1,25 @@
+{
+  "event_name": "Purchase",
+  "order_id": "KL-20931",
+  "event_time": "2026-11-24T19:42:10+05:30",
+  "event_source_url": "https://www.kesarleaf-demo.in/checkout/thank-you",
+  "email": " Riya.Sharma@Example.com ",
+  "phone": "+91 98123 45678",
+  "first_name": "Riya",
+  "last_name": "Sharma",
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "zip": "302 001",
+  "country": "India",
+  "external_id": "cust_5521",
+  "client_ip_address": "49.36.112.10",
+  "client_user_agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Mobile Safari/537.36",
+  "fbp": "fb.1.1795520000456.1234567890",
+  "fbc": "fb.1.1795510000123.IwAR0demoClickIdAbc123",
+  "value": 2148.00,
+  "currency": "INR",
+  "items": [
+    {"id": "KL-SAFFRON-1G", "quantity": 2, "item_price": 649},
+    {"id": "KL-GIFTBOX-M", "quantity": 1, "item_price": 850}
+  ]
+}

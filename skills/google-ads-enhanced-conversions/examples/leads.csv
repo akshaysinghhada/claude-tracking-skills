@@ -1,0 +1,8 @@
+lead_id,first_name,last_name,email,phone,city
+L-1001,Riya,Sharma,  Riya.Sharma@GMail.com ,98765 43210,Jaipur
+L-1002,Arjun,Mehta,arjun.mehta@demo-b2b.com,+91-99887-76655,Pune
+L-1003,Neha , Verma,neha.verma@googlemail.com,09812345678,Delhi
+L-1004,Kabir,Singh,kabir@demo-store.in,919900112233,Mumbai
+L-1005,Test,User,not-an-email,12345,Jaipur
+L-1006,Sara,Khan,,9.19876543210E+11,Dubai
+L-1007,Omar,Ali,omar.ali@demo-uae.ae,+971 50 123 4567,Dubai

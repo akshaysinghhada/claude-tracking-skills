@@ -1,0 +1,11 @@
+lead_id,gclid,email,phone,lead_created_time,lead_stage,stage_time,value,currency
+D-501,Cj0KCQiA_fake_gclid_demo_000001,ananya.rao@demo-b2b.com,9876500001,2026-11-02 10:15:00,SQL,2026-11-05 16:40:00,50000,INR
+D-502,Cj0KCQiA_fake_gclid_demo_000002,vikram.j@demo-b2b.com,9876500002,2026-10-20 09:00:00,Won,2026-11-20 18:05:00,"2,40,000",INR
+D-503,,pooja.nair@gmail.com,+91 98765 00003,2026-11-10 12:00:00,SQL,2026-11-12 11:30:00,50000,INR
+D-504,,,,2026-11-11 12:00:00,SQL,2026-11-13 11:30:00,50000,INR
+D-505,Cj0KCQiA_fake_gclid_demo_000005,rohit@demo-b2b.com,9876500005,2026-07-01 09:00:00,Won,2026-11-18 10:00:00,180000,INR
+D-506,Cj0KCQiA_fake_gclid_demo_000006,meera@demo-b2b.com,9876500006,2026-11-15 14:00:00,MQL,2026-11-15 14:05:00,,
+D-507,Cj0KCQiA_fake_gclid_demo_000001,ananya.rao@demo-b2b.com,9876500001,2026-11-02 10:15:00,SQL,2026-11-05 16:40:00,50000,INR
+D-508,bad gclid,sam@demo-b2b.com,9876500008,2026-11-14 10:00:00,SQL,14/11/2026 15:20,50000,INR
+D-509,Cj0KCQiA_fake_gclid_demo_000009,lata@demo-b2b.com,9876500009,2026-11-16 10:00:00,Won,2026-12-02 10:00:00,90000,INR
+D-510,,karan.d@demo-b2b.com,09876500010,2026-11-01 10:00:00,Won,2026-11-21T19:45:00+05:30,120000,INR

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-tracking-skills",
+  "description": "Claude skills for conversion tracking audits across GTM, GA4, Google Ads, Meta CAPI and CRM",
+  "owner": {
+    "name": "Akshay Singh Hada",
+    "url": "https://akshaysinghhada.com"
+  },
+  "plugins": [
+    {
+      "name": "tracking-audit",
+      "description": "15 skills to audit and fix conversion tracking: GTM, GA4, UTMs, Google Ads conversions, enhanced conversions, offline import, Meta CAPI dedup and EMQ, Consent Mode v2, duplicate conversions and CRM feedback.",
+      "source": "./",
+      "category": "marketing",
+      "homepage": "https://github.com/akshaysinghhada/claude-tracking-skills"
+    }
+  ]
+}

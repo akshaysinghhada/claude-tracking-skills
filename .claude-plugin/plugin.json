@@ -1,0 +1,13 @@
+{
+  "name": "tracking-audit",
+  "description": "Fifteen Claude skills for conversion tracking audits: GTM container, dataLayer and naming; GA4 events, ecommerce QA and UTMs; Google Ads conversion actions, enhanced conversions and offline import; Meta Pixel and CAPI dedup, Event Match Quality and payloads; Consent Mode v2; duplicate conversions; and CRM lead feedback. Each skill ships with a standard-library Python script and sample data.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Akshay Singh Hada",
+    "url": "https://akshaysinghhada.com"
+  },
+  "homepage": "https://akshaysinghhada.com/conversion-tracking-audit/",
+  "repository": "https://github.com/akshaysinghhada/claude-tracking-skills",
+  "license": "MIT",
+  "keywords": ["conversion-tracking", "gtm", "ga4", "google-ads", "meta-capi", "consent-mode", "server-side-tracking", "crm", "marketing", "audit"]
+}

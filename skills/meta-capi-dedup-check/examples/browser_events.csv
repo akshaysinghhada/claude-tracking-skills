@@ -1,0 +1,14 @@
+event_name,event_id,timestamp
+PageView,pv-1001,1795581000
+PageView,pv-1002,1795581060
+ViewContent,vc-2001,1795581100
+ViewContent,vc-2002,1795581200
+AddToCart,atc-3001,1795581300
+AddToCart,atc-3002,1795581400
+AddToCart,atc-3002,1795581401
+InitiateCheckout,ic-4001,1795581500
+Purchase,order-DS10021,1795581600
+Purchase,order-DS10022,1795582600
+Purchase,order-DS10023,1795583600
+Purchase,,1795584600
+Lead,lead-5001,2026-11-25T10:15:00+05:30

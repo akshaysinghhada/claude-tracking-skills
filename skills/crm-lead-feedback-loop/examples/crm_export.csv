@@ -1,0 +1,13 @@
+lead_id,source,gclid,fbclid,meta_lead_id,email,phone,stage,stage_updated_at,value
+BN-1001,meta_lead_form,,,1234567890123456,riya.sharma@example.com,+91 98123 45678,New,2026-11-22 10:15:00,
+BN-1002,meta_lead_form,,,1234567890123457,aman.verma@example.com,09876543210,Qualified,2026-11-23 16:40:00,
+BN-1003,google_search,EAIaIQobChMIdemo1003gclidAbC,,,neha.k@example.org,9988776655,Site Visit,2026-11-24 12:00:00,
+BN-1004,google_search,EAIaIQobChMIdemo1004gclidXyZ,,,karan.mehta@example.com,9900011122,Won,2026-11-24T18:30:00+05:30,"7,500,000"
+BN-1005,meta_lead_form,,,,pooja.demo@example.com,9812300011,Contacted,2026-11-21 09:05:00,
+BN-1006,meta_website,,IwAR0demoFbclid1006,,,9812300022,Qualified,2026-11-23 11:20:00,
+BN-1007,organic,,,,,,New,2026-11-20 14:00:00,
+BN-1008,google_search,,,,vikram.demo@example.com,9812300033,Qualified,2026-11-23 15:10:00,
+BN-1009,meta_lead_form,,,1234567890123459,sana.demo@example.com,9812300044,Junk,2026-11-22 10:00:00,
+BN-1010,meta_lead_form,,,1234567890123460,arjun.demo@example.com,98123-00055,Won,2026-11-24 19:45:00,6200000
+BN-1011,google_search,EAIaIQobChMIdemo1011gclidOld,,,meera.demo@example.com,9812300066,Qualified,2026-07-10 10:00:00,
+BN-1012,referral,,,,not-an-email,12345,Negotiation,2026-11-24 10:00:00,

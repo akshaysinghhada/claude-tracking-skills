@@ -1,0 +1,8 @@
+{
+  "New":        {"meta": "Lead",           "google": null},
+  "Contacted":  {"meta": "Contacted",      "google": null},
+  "Qualified":  {"meta": "Qualified Lead", "google": "CRM - Qualified Lead"},
+  "Site Visit": {"meta": "Site Visit",     "google": "CRM - Site Visit"},
+  "Won":        {"meta": "Booking Done",   "google": "CRM - Booking", "value": true},
+  "Junk":       {"meta": null,             "google": null}
+}
